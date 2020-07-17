@@ -23,7 +23,14 @@
     "run": {
         "configs": {
             "@inited": "true",
-            "json()": {}
+            "json()": {
+                "git add .": {
+                    "command": "git add .",
+                    "name": "git add .",
+                    "runner": "Shell command",
+                    "toolbar": true
+                }
+            }
         }
     },
     "welcome": {
